@@ -1,4 +1,4 @@
-package george.stoica.management.dto;
+package georgestoica.management.dto;
 
 import lombok.Data;
 

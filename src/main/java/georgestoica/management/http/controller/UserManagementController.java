@@ -1,10 +1,9 @@
-package george.stoica.management.http.controller;
+package georgestoica.management.http.controller;
 
-import george.stoica.management.dto.UserDto;
-import george.stoica.management.http.controller.data.CreateUserRequest;
-import george.stoica.management.http.controller.data.UpdateUserRequest;
-import george.stoica.management.http.controller.data.UserManagementResponse;
-import george.stoica.management.service.UserManagementService;
+import georgestoica.management.http.controller.data.CreateUserRequest;
+import georgestoica.management.http.controller.data.UpdateUserRequest;
+import georgestoica.management.http.controller.data.UserManagementResponse;
+import georgestoica.management.service.UserManagementService;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.*;

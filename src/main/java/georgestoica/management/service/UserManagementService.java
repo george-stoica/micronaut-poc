@@ -1,8 +1,8 @@
-package george.stoica.management.service;
+package georgestoica.management.service;
 
-import george.stoica.management.dto.UserDto;
-import george.stoica.management.persistence.UserRepository;
-import george.stoica.management.persistence.entity.User;
+import georgestoica.management.dto.UserDto;
+import georgestoica.management.persistence.UserRepository;
+import georgestoica.management.persistence.entity.User;
 import io.reactivex.Single;
 
 import javax.inject.Inject;

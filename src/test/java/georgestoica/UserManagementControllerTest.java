@@ -1,8 +1,8 @@
-package george.stoica;
+package georgestoica;
 
-import george.stoica.management.http.controller.data.CreateUserRequest;
-import george.stoica.management.http.controller.data.UpdateUserRequest;
-import george.stoica.management.http.controller.data.UserManagementResponse;
+import georgestoica.management.http.controller.data.CreateUserRequest;
+import georgestoica.management.http.controller.data.UpdateUserRequest;
+import georgestoica.management.http.controller.data.UserManagementResponse;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.RxHttpClient;

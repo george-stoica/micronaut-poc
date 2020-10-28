@@ -1,4 +1,4 @@
-package george.stoica.management.http.controller.data;
+package georgestoica.management.http.controller.data;
 
 import io.micronaut.core.annotation.Introspected;
 import lombok.Data;

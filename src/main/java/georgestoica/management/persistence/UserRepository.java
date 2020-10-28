@@ -1,6 +1,6 @@
-package george.stoica.management.persistence;
+package georgestoica.management.persistence;
 
-import george.stoica.management.persistence.entity.User;
+import georgestoica.management.persistence.entity.User;
 import io.micronaut.context.annotation.Executable;
 import io.micronaut.data.jdbc.annotation.JdbcRepository;
 import io.micronaut.data.model.query.builder.sql.Dialect;

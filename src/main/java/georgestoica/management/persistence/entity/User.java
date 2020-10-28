@@ -1,4 +1,4 @@
-package george.stoica.management.persistence.entity;
+package georgestoica.management.persistence.entity;
 
 import lombok.Data;
 

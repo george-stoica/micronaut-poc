@@ -1,4 +1,4 @@
-package george.stoica;
+package georgestoica;
 
 import io.micronaut.runtime.Micronaut;
 

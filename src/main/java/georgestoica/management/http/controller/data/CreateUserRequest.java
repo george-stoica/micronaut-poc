@@ -1,6 +1,6 @@
-package george.stoica.management.http.controller.data;
+package georgestoica.management.http.controller.data;
 
-import george.stoica.management.dto.UserDto;
+import georgestoica.management.dto.UserDto;
 import io.micronaut.core.annotation.Introspected;
 import lombok.Data;
 
