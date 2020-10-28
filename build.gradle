@@ -3,6 +3,13 @@ plugins {
     id "io.micronaut.application" version '1.0.5'
 }
 
+ext {
+    micronautDataVersion = "2.1.0"
+    micronautJdbcHikariVersion = "2.1.0"
+    jakartaPersistenceVersion = "2.2.2"
+    lombokVersion = "1.18.16"
+}
+
 version "0.1"
 group "george.stoica"
 
@@ -26,6 +33,18 @@ dependencies {
     implementation("javax.annotation:javax.annotation-api")
     implementation("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
+
+    // NOTE: https://docs.micronaut.io/latest/guide/index.html#lombok
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    annotationProcessor ("org.projectlombok:lombok:$lombokVersion")
+    compileOnly("org.projectlombok:lombok:$lombokVersion")
+
+    // DB dependencies
+    annotationProcessor("io.micronaut.data:micronaut-data-processor:$micronautDataVersion")
+    implementation("io.micronaut.data:micronaut-data-jdbc:$micronautDataVersion")
+    compileOnly("jakarta.persistence:jakarta.persistence-api:$jakartaPersistenceVersion")
+    runtime("io.micronaut.sql:micronaut-jdbc-hikari:$micronautJdbcHikariVersion")
+    runtime("com.h2database:h2")
 }
 
 mainClassName = "george.stoica.Application"
